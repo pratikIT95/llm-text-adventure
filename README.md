@@ -217,3 +217,97 @@ This project demonstrates how **Google Gemini AI** can enhance text-based games 
 - **User authentication** for saving progress
 - **Enhanced AI responses** for more immersive storytelling
 
+---
+
+## 🤝 Collaborator Guide
+
+Thank you for your interest in contributing to the **AI-powered text adventure game** project! Below are the guidelines for contributing to both the **UI** and **API** repositories. Please follow these instructions to get started.
+
+### **UI Repository: [GitHub Link to UI Repo](https://github.com/pratikIT95/text-game-llm-ui)**
+
+The **UI repository** is responsible for the frontend of the text adventure game, built using **Angular** and **Angular Material**.
+
+#### **Getting Started**
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/pratikIT95/text-game-llm-ui.git
+   cd text-game-llm-ui
+   ```
+
+2. **Install Dependencies:**
+   Make sure you have **Node.js** and **npm** installed. Then, run:
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server:**
+   To run the UI locally, use:
+   ```bash
+   ng serve
+   ```
+
+4. **Open the Application:**
+   Navigate to `http://localhost:4200` in your browser to view the application in action.
+
+#### **How to Contribute**
+
+- **Bug Fixes:** If you find any issues with the UI or functionality, feel free to open an issue or submit a pull request with your fix.
+- **UI Enhancements:** If you have design suggestions or want to add new Angular Material components, please fork the repo, create a new branch, and submit your changes.
+- **Testing:** Ensure that all components are working as expected by running:
+  ```bash
+  ng test
+  ```
+
+---
+
+### **API Repository: [GitHub Link to API Repo](https://github.com/pratikIT95/text-game-llm-api)**
+
+The **API repository** handles the backend logic, including **Spring Boot** for the API endpoints and integration with **Google Gemini** for AI-driven storytelling.
+
+#### **Getting Started**
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/pratikIT95/text-game-llm-api.git
+   cd text-game-llm-api
+   ```
+
+2. **Install Dependencies:**
+   Make sure you have **Java** and **Gradle** installed. Then, run:
+   ```bash
+   ./gradlew build
+   ```
+
+3. **Set Up the Google Gemini API Key:**
+   Follow the steps in the guide above to obtain your **Gemini API Key** and add it to the `application-local.properties` file:
+   ```properties
+   gemini.api.key=YOUR_API_KEY_HERE
+   ```
+
+4. **Run the Backend:**
+   Start the backend using the following command:
+   ```bash
+   ./gradlew bootRun
+   ```
+
+5. **Test the API Locally:**
+   You can use tools like **Postman** or **curl** to test the various endpoints exposed by the API.
+
+#### **How to Contribute**
+
+- **Bug Fixes:** If you identify any bugs or issues with the API endpoints, create a pull request with a fix.
+- **Enhancements:** If you have ideas for improving conversation management, the AI's responses, or the API's overall functionality, feel free to submit your changes after testing.
+- **Integration with Other Services:** You are welcome to explore adding new AI features or integrating additional AI models to enhance the story generation.
+
+---
+
+### **General Contribution Guidelines**
+
+- **Fork the Repositories:** To contribute, fork the repositories and create a branch for your changes.
+- **Pull Requests:** Submit a pull request with a clear description of the changes you’ve made and the reasoning behind them.
+- **Code Style:** Follow the existing coding styles and conventions in both repositories. Ensure your changes are well-documented and cleanly formatted.
+
+We appreciate all contributions and encourage you to get involved!
+
+---
